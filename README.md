@@ -1,8 +1,9 @@
-# Arduino USB Host / HID Mouse
+# Arduino USB Host / HID Mouse Interceptor
 
-Standalone USB host mouse proxy. This sketch includes a HID mouse and can take
-commands from the device it is connected to. Reads the incoming bytes through 
-serial port, then executes. It basically intercepts HID signals and overwrites them.
+This sketch includes a HID mouse and can take commands from the device it is connected to. 
+Reads the incoming bytes through  serial port, then executes. 
+It basically intercepts HID signals and overwrites them. You can modify this to be a
+full-fledged mouse proxy.
 
 
 ### Usage
